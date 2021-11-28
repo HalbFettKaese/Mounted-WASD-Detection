@@ -9,7 +9,7 @@ Usage:
 
 Outputs can be detected
 
-## Contributors ✨
+## Contributors 🧱
 
 <!-- prettier-ignore-start -->
 <!-- markdownlint-disable -->
