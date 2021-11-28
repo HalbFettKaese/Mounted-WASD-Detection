@@ -16,7 +16,7 @@ Outputs can be detected
 <table>
   <tr>
     <td align="center"><a href="https://github.com/CLoudWolfYT"><img src="https://avatars.githubusercontent.com/u/64243799?v=4" width="100px;" alt=""/><br /><sub><b>Cloud Wolf</b></sub></a><br /><a href="#" title="Datapack Creator">🔨</a></td>
-    <td align="center"><a href="https://github.com/MulverineX"><img src="https://avatars2.githubusercontent.com/u/12068027?v=4" width="100px;" alt=""/><br /><sub><b>MulverineX</b></sub></a><br /><a href="#" title="Cleaned, Namespaced, Documented/Implemented Outputs, & Published">🧹</a></td>
+    
   </tr>
 </table>
 
