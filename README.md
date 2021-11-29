@@ -4,7 +4,7 @@
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 A Minecraft Datapack that detects WASD inputs while mounted.
 
-Two use methods:
+```Two use methods:
 	Case (1)
 		Usage:
 		`execute as @a if predicate wasd:is_wasder run function wasd:detect`
@@ -18,7 +18,7 @@ Two use methods:
 
 		Output:
 		`execute as @a[tag=wasd.w] run title @s title {"text":"W"}`
-
+```
 ## Contributors 🧱
 
 <!-- prettier-ignore-start -->
