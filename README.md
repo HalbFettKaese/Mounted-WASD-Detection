@@ -4,20 +4,16 @@
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 A Minecraft Datapack that detects WASD inputs while mounted.
 
-Two use methods:
-<br>Case (1)
-		Usage:
-		`execute as @a if predicate wasd:is_wasder run function wasd:detect`
+<table>
+    <tr>
+        <td>Case (1) relies on function structure using fake players<br>
+		1. execute if predicate wasd:is_wasder run function wasd:detect <br>Outputs:<br>1. execute if score .w wasd matches 1 run title @s {"text":"W"}</td>
+    </tr>
+        <td>Case (2) can be run at  any context using tags<br>1. scoreboard players set in wasd 1 <br>
+		2. execute as @a if predicate wasd:is_wasder run function wasd:detect <br>Outputs:<br>1. execute as @a[tag=wasd.w] if score .w wasd matches 1 run title @s {"text":"W"}</td>
+    </tr>
+</table>
 
-		Output:
-		`execute if score .w wasd matches 1 run say W`
-	Case(2)
-		Usage:
-		`scoreboard players set in wasd 1
-		execute as @a if predicate wasd:is_wasder run function wasd:detect`
-
-		Output:
-		`execute as @a[tag=wasd.w] run title @s title {"text":"W"}`
 
 ## Contributors 🧱
 
