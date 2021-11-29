@@ -1,3 +1,4 @@
+execute store result score .ry wasd run data get entity @s Rotation[0] 1.0
 ## dir = atan2(Motion[0],Motion[2]) + Rotation[0]
 scoreboard players operation in math = .z wasd
 scoreboard players operation in1 math = .x wasd
